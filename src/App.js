@@ -7,7 +7,6 @@ var musicGenres = {
       name: "The Local Train",
       rating: "4/5"
     },
-
     {
       name: "Agnee",
       rating: "4.7/5"
@@ -30,6 +29,7 @@ export default function App() {
   function clickGenre(list) {
     setgenre(list);
   }
+
   return (
     <div className="App">
       <h1>Good music</h1>
